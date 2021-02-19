@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Kwitter</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <script src="kwitter.js"></script>
+    <link rel="stylesheet" href="kwitter.css">
+    <link rel="shortcut icon" href="Logo4.png">
+    </head>
+    <body>
+        <div id="logo" class="row">
+            <span id="red"></span>
+            &nbsp;&nbsp;
+            <span id="yellow"></span>          
+             &nbsp;&nbsp;
+            <span id="green"></span>
+            <br><br><br><br><br>
+            <img src="logo.png" id="logo2">
+            <br><br>
+            <h1>Kwitter</h1>
+            <h3>Know What's Going Out There</h3>
+            <div style="position: absolute; bottom: 20px; left: 20%;">
+                <h5>&copy;&nbsp;&nbsp;Visit Kwitter</h5>
+            </div>
+        </div>
+        <div id="login" class="row">
+            <h2 style="margin-top: 30%;">Sign Up</h2>
+            <br>
+            <input type="text" id="user_name" class="from-control" placeholder="User Name" style="width: 40%;"/>
+            <br><br><br>
+            <button class="btn btn-info" id="button_login" style="width: 25%;" onclick="addUser()">Get Started</button>
+        </div>
+    </body>
